@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top-container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/F1-logo.png" alt="Bootstrap" width="50" height="35">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cars.html">Cars</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Standings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./drivers.html">Drivers</a></li>
+                                <li><a class="dropdown-item active" href="constructor.html">Cunstructors</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="middle-container">
+
+    <div class="intro-text items">
+        <h1>2024 Constructor Standings</h1>
+    </div>
+    
+    <table class="table table-striped table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">POSITION</th>
+            <th scope="col">TEAM</th>
+            <th scope="col">POINTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>McLaren</td>
+            <td>544</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Red Bull Racing</td>
+            <td>504</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ferrari</td>
+            <td>496</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Mercedes</td>
+            <td>344</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Aston Martin</td>
+            <td>86</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Haas</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Cash RB</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Williams</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>Alpine</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>Kick Sauber</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
